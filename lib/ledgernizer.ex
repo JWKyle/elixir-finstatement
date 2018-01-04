@@ -25,5 +25,14 @@ defmodule Ledgernizer do
 
   defp parse_to_float(string) do
     String.to_float(string)
+    |> abs #absolute value
+  end
+
+  defp sort(rows) do
+    Enum.sort(rows, &sort_asc_by_amount(&1, &2))
+  end
+
+  defp sort_asc_by_amount([_, _, _, prev], [_, _, _, next]) do
+    prev < next
   end
 end
