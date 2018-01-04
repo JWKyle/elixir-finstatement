@@ -5,6 +5,7 @@ defmodule Ledgernizer do
     |> parse
     |> filter
     |> normalize
+    |> sort
   end
 
   defp parse(string) do #defp = private function
