@@ -1,5 +1,5 @@
 defmodule Ledgernizer do
   def list_transactions do
-    "listing transaction"
+    File.read!("lib/statement.csv")
   end
 end
