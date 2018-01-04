@@ -1,18 +1,5 @@
 defmodule Ledgernizer do
-  @moduledoc """
-  Documentation for Ledgernizer.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Ledgernizer.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def list_transactions do
+    "listing transaction"
   end
 end
