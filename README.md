@@ -1,7 +1,7 @@
 # Ledgernizer
 
 ## Description
-This is a project that uses elixir to manipulate a csv file (in this case, an example of a financial statement), and print it to the command line.  
+This is a project that uses Elixir to manipulate a CSV file (in this case, an example of a financial statement), and print it to the command line.  This project came from a Code School screencast, and is currently being used as a sandbox.   
 
 ## Installation
 
