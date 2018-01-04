@@ -1,5 +1,5 @@
 defmodule Ledgernizer do
-  def hello do
-    :world
+  def list_transactions do
+    "listing transaction"
   end
 end
