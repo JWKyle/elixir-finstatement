@@ -44,6 +44,6 @@ defmodule Ledgernizer do
   end
 
   defp print_to_console([date, description, transaction, amount]) do
-    IO.puts "#{date} #{description} #{transaction} #{:erlang.float_to_binary(amount, decimals: 2)}"
+    IO.puts "#{date} \t#{description} \t#{transaction} \t$#{:erlang.float_to_binary(amount, decimals: 2)}"
   end
 end
